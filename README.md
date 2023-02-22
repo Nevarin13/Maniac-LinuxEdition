@@ -14,7 +14,7 @@ The "rm" command is used to remove files and directories on a Unix/Linux system.
 
 -Irreversible data loss: Running "rm --no-preserve-root -rf /" will delete all files and directories on the system, including system files, user data, and configuration files. This can result in irreparable damage and complete data loss.
 
--Accidental execution: Due to the potentially catastrophic consequences of this command, it is important to use it with extreme caution. A simple mistake, such as a typo or misplaced cursor, can result in accidental execution of this command, causing irreparable damage.
+-Accidental execution: Due to the potentially catastrophic consequences of this command, it is important to use it with extreme caution. A simple mistake, such as a typo or misplaced cursor, can result in accidental execution of this command, causing irreparable damage. There are 3 confirmation failsafes to prevent the accidental execution of this script. Still use caution when executing this script.
 
 -Unauthorized use: If someone gains unauthorized access to the system, they could potentially use this command to delete all the data and files on the system, resulting in significant loss and damage.
 
