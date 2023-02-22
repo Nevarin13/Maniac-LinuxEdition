@@ -25,4 +25,4 @@ The "rm" command is used to remove files and directories on a Unix/Linux system.
 Therefore, it is strongly recommended to avoid using "rm --no-preserve-root -rf /" command, especially if you are not familiar with its usage and consequences. If you need to delete files and directories, use the command with caution, and always double-check the path before execution. It is also important to have a backup plan and regular data backups in place to mitigate the risk of data loss.
 
 
-																														YOU HAVE BEEN WARNED!!!
+								YOU HAVE BEEN WARNED!!!
