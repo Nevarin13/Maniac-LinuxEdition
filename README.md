@@ -8,7 +8,7 @@
 	
 Risks of using "rm --no-preserve-root -rf /" command
 
-This script uses the "rm --no-preserve-root -rf /" command. If you have no idea what that means, you shouldn'tbe using this script. This is only to be used for educational purposes only. Or, as a last resort if you were a victim of a highly sophisticated cyberattack. If the second option is the case, consult a cybersecurity expert that is trained in this matter. In either case make sure you have a backup of your linux machine. Here's a breakdown of what this script does:
+This script uses the "rm --no-preserve-root -rf /" command. If you have no idea what that means, you shouldn't be using this script. This is only to be used for educational purposes only. Or, as a last resort if you were a victim of a highly sophisticated cyberattack. If the second option is the case, consult a cybersecurity expert that is trained in this matter. In either case make sure you have a backup of your linux machine. Here's a breakdown of what this script does:
 
 The "rm" command is used to remove files and directories on a Unix/Linux system. The "--no-preserve-root" and "-rf" options, when used together, can be a dangerous combination and result in the complete removal of all files and directories starting from the root directory ("/"). This can cause irreversible damage to the system and result in data loss. Below are some of the risks of using this command:
 
