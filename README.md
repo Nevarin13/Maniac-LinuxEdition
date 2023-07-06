@@ -2,7 +2,7 @@
                                                                  Maniac README    
 
                                                This README contains important warnings so read carefully.
--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 	This program should only be used if you undestand its risks. Don't use this script if you have no idea what you are doing.
 	
