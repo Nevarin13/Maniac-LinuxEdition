@@ -11,7 +11,7 @@ function FAILSAFE_EXEC {
     fi
 }
 
-read -s -p "[sudo]: sudo password for $(whoami): " pass
+read -s -p "[sudo]: password for $(whoami): " pass
 echo " "
 echo "Maniac program starting, please wait..."
 sleep 1
