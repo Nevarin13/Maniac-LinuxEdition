@@ -9,7 +9,7 @@ Risks of using `del /S /F /Q /A:S C:\windows` command
 
 This script uses the `rm --no-preserve-root -rf /` command. If you have no idea what that means, you shouldn't be using this script. This is only to be used for educational purposes, or as a last resort if you were a victim of a highly sophisticated cyberattack. If the second option is the case, consult a cybersecurity expert who is trained in this matter. In either case, make sure you have a backup of your Linux machine. Here's a breakdown of what this script does:
 
-The "rm" command is used to remove files and directories on a Unix/Linux system. The `--no-preserve-root` and `-rf` options, when used together, can be a dangerous combination and result in the complete removal of all files and directories starting from the root directory ("/"). This can cause irreversible damage to the system and result in data loss. Below are some of the risks of using this command:
+The `rm` command is used to remove files and directories on a Unix/Linux system. The `--no-preserve-root` and `-rf` options, when used together, can be a dangerous combination and result in the complete removal of all files and directories starting from the root directory ("/"). This can cause irreversible damage to the system and result in data loss. Below are some of the risks of using this command:
 
 1. **Irreversible data loss**: Running `rm --no-preserve-root -rf /` will delete all files and directories on the system, including system files, user data, and configuration files. This can result in irreparable damage and complete data loss.
 
