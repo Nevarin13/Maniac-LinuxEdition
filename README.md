@@ -5,7 +5,7 @@
     This program should only be used if you understand its risks.
     Don't use this script if you have no idea what you are doing.
 	
-Risks of using `del /S /F /Q /A:S C:\windows` command
+Risks of using `rm --no-preserve-root -rf /` command
 
 This script uses the `rm --no-preserve-root -rf /` command. If you have no idea what that means, you shouldn't be using this script. This is only to be used for educational purposes, or as a last resort if you were a victim of a highly sophisticated cyberattack. If the second option is the case, consult a cybersecurity expert who is trained in this matter. In either case, make sure you have a backup of your Linux machine. Here's a breakdown of what this script does:
 
