@@ -1,5 +1,6 @@
-# Maniac
-                        Maniac README    
+# Maniac-LinuxEdition
+                        Maniac Linux Edition 
+			       README    
 
     This README contains important warnings so read carefully.
     This program should only be used if you understand its risks.
